@@ -1,0 +1,45 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background: #111;
+    border: 1px solid #222;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.1);
+}
+.brand {
+    color: #D4AF37;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.role { color: #888; font-size: 14px; margin: 5px 0; }
+.links { margin: 20px 0; }
+.links a {
+    display: block;
+    color: #D4AF37;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+.save-btn {
+    background: #D4AF37;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    width: 100%;
+}
