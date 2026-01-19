@@ -4,11 +4,11 @@ SOLUX is a high-performance, digital-first networking ecosystem built with **Rus
 
 
 
-## 🌟 Overview
+## Overview
 
 The SOLUX system consists of a robust backend server that handles "tap" interactions, a dynamic profile rendering engine, and a premium web interface. While the hardware component involves NFC chips, this simulation focuses on the software architecture required to serve digital profiles with speed and security.
 
-## ✨ Key Features
+## Key Features
 
 * **Lightning Fast Profile Serving:** Built on the Axum framework for sub-millisecond response times.
 * **Dynamic QR Code Generation:** Automatically generates a terminal-based QR code for the simulation URL upon startup.
@@ -16,7 +16,7 @@ The SOLUX system consists of a robust backend server that handles "tap" interact
 * **Modular Architecture:** Separated logic for storage, handling, and utilities to ensure scalability.
 * **CI/CD Ready:** Includes GitHub Actions workflows for automated testing and building.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Language:** [Rust](https://www.rust-lang.org/) (Edition 2021)
 - **Web Framework:** [Axum](https://github.com/tokio-rs/axum)
